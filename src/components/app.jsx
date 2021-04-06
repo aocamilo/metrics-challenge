@@ -1,5 +1,12 @@
 import React from 'react';
+import Dashboard from '../pages/Dashboard';
+import { GlobalStyle } from '../styles/GlobalStyles';
 
-const App = () => <h1>Hola Mundo!</h1>;
+const App = () => (
+  <>
+    <GlobalStyle />
+    <Dashboard />
+  </>
+);
 
 export default App;
